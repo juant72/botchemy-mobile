@@ -27,7 +27,7 @@ function MainTabs() {
           if (route.name === 'Dashboard') {
             iconName = focused ? 'stats-chart' : 'stats-chart-outline';
           } else if (route.name === 'Bots') {
-            iconName = focused ? 'robot' : 'robot-outline';
+            iconName = focused ? 'hardware-chip' : 'hardware-chip-outline';
           } else if (route.name === 'Portfolio') {
             iconName = focused ? 'wallet' : 'wallet-outline';
           } else if (route.name === 'Settings') {
