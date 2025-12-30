@@ -1,16 +1,15 @@
-import React from 'react';
+import { Ionicons } from '@expo/vector-icons';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Ionicons } from '@expo/vector-icons';
 
-import { useAuthStore } from '../store/authStore';
 import { Colors } from '../constants/colors';
+import { useAuthStore } from '../store/authStore';
 
 // Screens
 import LoginScreen from '../screens/auth/LoginScreen';
-import DashboardScreen from '../screens/dashboard/DashboardScreen';
 import BotsScreen from '../screens/bots/BotsScreen';
+import DashboardScreen from '../screens/dashboard/DashboardScreen';
 import PortfolioScreen from '../screens/portfolio/PortfolioScreen';
 import SettingsScreen from '../screens/settings/SettingsScreen';
 
